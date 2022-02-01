@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -8,6 +9,8 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
+    padding-left: 192px;
+    padding-right: 192px;
 }
 
 .logo {
@@ -23,5 +26,38 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+.one {
+    display: flex;
+    background-color: #1f2937;
+    padding: 192px;
+    padding-top: 96px;
+    justify-content: space-between;
+}
+
+.west {
+    display: flex;
+    flex-direction: column;
+    padding-right: 96px;
+}
+
+.big {
+    font-size: 48px;
+    font-weight: bold;
     color: #f9faf8;
+}
+
+.small {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.east {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 192px;
 }
